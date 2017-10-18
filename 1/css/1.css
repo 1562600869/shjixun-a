@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.header {
+  padding: 0.16rem 0.18rem;
+  display: flex;
+  justify-content: space-between; }
+  .header img {
+    height: .72rem;
+    width: 2.15rem; }
+  .header > div {
+    display: flex; }
+    .header > div > p {
+      width: .4rem; }
+    .header > div > div {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-between; }
+      .header > div > div i {
+        font-size: .45rem;
+        color: #999999; }
+      .header > div > div p {
+        font-size: .22rem;
+        color: #999; }
+
+.swiper img {
+  width: 100%;
+  height: 2.38rem; }
+
+.nav {
+  padding-top: .36rem;
+  padding-bottom: .40rem;
+  display: flex;
+  flex-wrap: wrap; }
+  .nav li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-bottom: 0.4rem; }
+    .nav li > div {
+      margin-bottom: 0.24rem;
+      border-radius: 50%;
+      width: 1.2rem;
+      height: 1.2rem;
+      text-align: center;
+      background: red; }
+      .nav li > div p {
+        line-height: 1.2rem;
+        font-size: .68rem;
+        color: white; }
+    .nav li span {
+      font-size: 0.28rem;
+      color: #333; }
+
+.main {
+  padding: 0 0.17rem;
+  border-top: .18rem solid #f4f4f4; }
+  .main > img {
+    width: 100%; }
+  .main > div {
+    border-left: 0.05rem solid green;
+    height: .42rem;
+    display: flex;
+    align-items: flex-end;
+    margin: 0.32rem 0; }
+    .main > div p {
+      margin: 0 0.1rem;
+      font-size: .36rem;
+      color: #000; }
+    .main > div span {
+      font-size: .24rem;
+      color: #999; }
+
+.main_active {
+  margin-top: .2rem;
+  display: flex;
+  justify-content: center; }
+  .main_active li {
+    border-radius: 50%;
+    height: 0.12rem;
+    width: 0.12rem;
+    margin: 0 0.13rem; }
+
+.main_nav {
+  margin: .36rem .18rem;
+  display: flex; }
+  .main_nav > div {
+    display: flex;
+    align-items: center;
+    margin-right: 0.4rem; }
+    .main_nav > div i {
+      font-size: .36rem;
+      margin-right: .12rem;
+      color: #3DC994; }
+    .main_nav > div p {
+      width: 100%;
+      height: 0.28rem;
+      overflow: hidden;
+      font-size: .28rem;
+      color: #000; }
+
+.main-a {
+  text-align: center; }
+  .main-a input {
+    margin: .125rem 0;
+    width: 5.68rem;
+    height: .7rem;
+    border: 1px solid #eaeaea;
+    border-radius: 0.05rem;
+    font-size: .28rem;
+    color: #cacaca; }
+  .main-a button {
+    margin-top: .125rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.05rem;
+    width: 5.68rem;
+    height: .7rem;
+    font-size: 0.36rem;
+    color: white;
+    background: #FEB605;
+    border: none; }
+
+.main-b > ul {
+  display: flex;
+  justify-content: space-around; }
+  .main-b > ul > li {
+    text-align: center; }
+    .main-b > ul > li img {
+      width: 1.4rem;
+      height: 1.4rem; }
+    .main-b > ul > li p {
+      margin: .25rem 0;
+      color: #000;
+      font-size: .36rem; }
+    .main-b > ul > li button {
+      width: 1.2rem;
+      height: .32rem;
+      background: #3CC893;
+      border: none;
+      color: white;
+      font-size: .24rem;
+      border-radius: 0.05rem; }
+
+.main-b1 {
+  margin: .36rem .18rem;
+  display: flex; }
+  .main-b1 div {
+    font-size: 0.28rem;
+    height: .7rem;
+    width: 50%;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3CC893; }
+
+.main-c > div {
+  text-align: center; }
+  .main-c > div img {
+    width: 7.16rem;
+    height: 5.06rem;
+    margin: 0.04rem; }
+.main-c > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .main-c > ul > li {
+    margin: 0.04rem;
+    width: 3.55rem;
+    height: 2.5rem; }
+    .main-c > ul > li img {
+      width: 100%;
+      height: 100%; }
+
+.main-d {
+  text-align: center; }
+  .main-d img {
+    width: 7.16rem;
+    height: 5.34rem; }
+
+.main-d1 {
+  display: flex;
+  justify-content: flex-start;
+  margin: .25rem 0.18rem; }
+  .main-d1 p {
+    font-size: 0.28rem;
+    color: #000; }
+  .main-d1 button {
+    border: none;
+    border-radius: 0.05rem;
+    color: white;
+    background: #3CC893;
+    height: 0.3rem;
+    width: 1.13rem; }
+
+.main-e > ul {
+  display: flex;
+  flex-direction: column; }
+  .main-e > ul > li {
+    border-bottom: 1px solid #EAEAEA;
+    display: flex;
+    margin: 0 .18rem;
+    padding: .31rem 0; }
+    .main-e > ul > li img {
+      width: 1.9rem;
+      height: 1.45rem;
+      margin-right: .22rem; }
+    .main-e > ul > li > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      .main-e > ul > li > div > p {
+        margin-bottom: .3rem; }
+
+.main-e1 {
+  display: flex; }
+  .main-e1 div {
+    font-size: 0.28rem;
+    color: #999;
+    display: flex;
+    margin-right: 0.63rem; }
+
+.main-f {
+  border-top: .17rem solid #EAEAEA;
+  border-bottom: .17rem solid #EAEAEA;
+  font-size: .28rem;
+  color: #333;
+  padding: .36rem .18rem;
+  line-height: 0.3rem; }
+
+footer {
+  width: 100%;
+  height: 1.2rem;
+  margin-top: 0.16rem;
+  text-align: center;
+  border-top: 0.14rem solid #f4f4f4;
+  padding-top: 0.2rem; }
+  footer div {
+    width: 100%;
+    height: 0.4rem;
+    margin: 0.36rem 0;
+    display: flex;
+    justify-content: center; }
+    footer div p {
+      float: left;
+      color: #39C893; }
+    footer div span {
+      font-size: 0.22rem; }
+  footer ul {
+    width: 100%;
+    height: 0.8rem; }
+    footer ul li {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      float: left;
+      margin-top: 0.2rem;
+      font-size: 0.22rem; }
+
+.mb {
+  width: 100%;
+  height: 1.2rem;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9); }
+  .mb .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.5rem;
+    height: 0.5rem; }
+  .mb .img2 {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem; }
+  .mb .p1 {
+    color: #eed215;
+    position: absolute;
+    top: 0.3rem;
+    left: 1.2rem;
+    font-size: 0.24rem; }
+  .mb .p2 {
+    color: white;
+    position: absolute;
+    top: 0.58rem;
+    left: 1rem;
+    font-size: 0.26rem; }
+  .mb button {
+    width: 1.2rem;
+    height: .4rem;
+    background: #feb605;
+    border: none;
+    border-radius: 0.16rem;
+    position: absolute;
+    top: .4rem;
+    right: 0.1rem;
+    color: white;
+    font-size: 0.14rem; }
+
+/*# sourceMappingURL=1.css.map */
